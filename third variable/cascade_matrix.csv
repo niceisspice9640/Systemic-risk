@@ -1,0 +1,13 @@
+event,date,era,vendor_mechanism,Financial,Healthcare,Telecom,Government,Education,Logistics,Energy_Utilities,IT_Cloud
+SolarWinds,2020-12,pre_ai,Software supply chain (Orion update),0,1,0,1,0,0,1,1
+Microsoft Exchange (ProxyLogon),2021-03,pre_ai,Zero-day in on-prem Exchange,1,1,1,1,1,0,1,1
+Kaseya VSA,2021-07,pre_ai,MSP software supply chain (REvil),0,0,0,1,1,1,0,1
+Log4j (Log4Shell),2021-12,pre_ai,Ubiquitous library RCE,0,0,0,1,0,0,0,1
+LastPass,2022-08,pre_ai,Credential/vault theft,0,0,0,0,0,0,0,1
+Okta (Lapsus$),2022-10,pre_ai,Identity provider compromise,0,0,0,0,0,0,0,1
+3CX,2023-03,ai_era,Double software supply chain,1,0,1,1,0,0,0,1
+MOVEit Transfer,2023-06,ai_era,Managed file transfer zero-day (Cl0p),1,1,1,1,1,1,1,1
+Change Healthcare,2024-02,ai_era,Ransomware on claims clearinghouse,1,1,0,0,0,0,0,1
+CrowdStrike,2024-07,ai_era,Faulty security update,1,1,1,1,0,1,1,1
+Blue Yonder,2024-11,ai_era,Ransomware on SCM platform,0,0,0,0,0,1,0,1
+Canvas/Instructure,2026-05,ai_era,Ransomware on LMS (ShinyHunters),0,0,0,1,1,0,0,1
