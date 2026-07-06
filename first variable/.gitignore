@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Note: data/ and figures/ ARE tracked intentionally — this repo is meant to be
+# a reproducible, self-contained portfolio piece. If the raw dataset grows too
+# large for git in future, consider Git LFS or documenting the download step
+# instead of committing data/raw/.

@@ -1,0 +1,7 @@
+Step,Count / Note
+Raw incidents loaded,3414
+Dropped (no usable start_date or end_date),85
+Remaining after date cleaning,3329
+Filtered to 2015-2024 window,Window applied: 2015-2024 (incidents outside window: 671)
+Final cleaned incident count (2015-2024),2658
+Incidents flagged ci_only_post2023_rule,640
