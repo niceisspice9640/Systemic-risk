@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Cyber incidents 2015-2024</title></head>
+<body>
+<div style="max-width:800px;margin:0 auto;font-family:Arial,sans-serif;">
+<div style="position:relative;width:100%;height:380px;">
+<canvas id="chart" role="img" aria-label="Line chart comparing raw and rule-adjusted EuRepoC incident counts by year"></canvas>
+</div>
+<p style="font-size:12px;color:#666;text-align:center;">Source: EuRepoC Global Dataset of Cyber Incidents v1.3.2</p>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+
+new Chart(document.getElementById('chart'), {
+  type: 'line',
+  data: {
+    labels: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+    datasets: [
+      { label: 'Total incidents (raw)', data: [131, 166, 135, 120, 91, 71, 160, 354, 729, 701], borderColor: '#185FA5', backgroundColor: '#185FA5', borderWidth: 2, pointRadius: 3, tension: 0.15 },
+      { label: 'Excluding CI-only-rule incidents (adjusted)', data: [131, 166, 134, 120, 90, 69, 148, 316, 445, 399], borderColor: '#0F6E56', backgroundColor: '#0F6E56', borderWidth: 2, borderDash: [6,4], pointRadius: 3, tension: 0.15 }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'top' } },
+    scales: { y: { beginAtZero: true, title: { display: true, text: 'Number of incidents' } } }
+  }
+});
+
+</script>
+</body></html>
